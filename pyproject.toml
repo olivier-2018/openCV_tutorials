@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "opencv-tutorials"
+version = "0.1.0"
+description = "tutorials with openCV"
+authors = ["Olivier-2018"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "opencv_tutorials"}]
+
+[tool.poetry.dependencies]
+python = "3.8.10"
+opencv-python = "^4.7.0.68"
+opencv-contrib-python = "^4.7.0.68"
+numpy = "^1.24.1"
+glob2 = "^0.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
